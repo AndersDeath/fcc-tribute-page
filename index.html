@@ -6,64 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trubute page</title>
-    <style>
-        body {
-            margin: 0 auto;
-            padding: 0;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        #main {
-            padding: 20px 0 20px 0;
-            width: 100%;
-            background-color: #ccc;
-            text-align: center;
-        }
-
-        #title {
-            width: 100%;
-        }
-
-        #img-div {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-        }
-
-        #img-div img {
-            margin: 0 auto;
-            max-width: 100%;
-            display: block;
-        }
-
-        #img-caption {
-            font-weight: bold;
-            padding: 5px;
-        }
-
-        #tribute-info {
-            margin: 0 auto;
-            width: 60%;
-            text-align: left;
-        }
-
-        #tribute-info h2 {
-            text-align: center;
-        }
-
-        #tribute-link {
-            padding: 20px 0 20px 0;
-            font-size: 28px;
-            color: #000;
-            display: inline-block;
-        }
-
-        @media (max-width: 1024px) {
-            #tribute-info {
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -73,10 +16,11 @@
             French actor initially associated with the New Wave of the 1960s and a
             major French film star for several decades from 1960s.
         </p>
-        <div id="img-div">
+        <figure id="img-div">
             <img id="image" src="https://citifox.ru/wp-content/uploads/2019/02/10.png"
                 alt="Jean-Paul Charles Belmondo" />
-            <div id="img-caption">9 April 1933 – 6 September 2021</div>
+            <figcaption id="img-caption">9 April 1933 – 6 September 2021</figcaption>
+            </figure>
             <div id="tribute-info">
                 <h2>1950s</h2>
                 <ul>
@@ -179,7 +123,6 @@
             </div>
             <a href="https://en.wikipedia.org/wiki/Jean-Paul_Belmondo" target="_blank" id="tribute-link">If you have time, you should read more about this incredible human being on his Wikipedia entry.
             </a>
-        </div>
     </main>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
